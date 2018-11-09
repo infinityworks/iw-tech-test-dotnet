@@ -19,7 +19,12 @@ namespace InfinityWorks.TechTest.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
-        // GET api/values
+        /// <summary>
+        /// Produces a list of authorities, for the select dropdown
+        /// </summary>
+        /// <returns>
+        /// List of authorities
+        /// </returns>
         [HttpGet]
         public async Task<JsonResult> GetAsync()
         {
