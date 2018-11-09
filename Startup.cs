@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace iw_tech_test_dotnet
+namespace InfinityWorks.TechTest
 {
     public class Startup
     {
@@ -39,6 +39,9 @@ namespace iw_tech_test_dotnet
             {
                 app.UseHsts();
             }
+
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
             app.UseMvc();

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace iw_tech_test_dotnet
+namespace InfinityWorks.TechTest
 {
     public class Program
     {

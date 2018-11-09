@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace iw_tech_test_dotnet.Controllers
+namespace InfinityWorks.TechTest.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
