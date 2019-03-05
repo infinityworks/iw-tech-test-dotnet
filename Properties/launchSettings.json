@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "iw_tech_test_dotnet": {
+    "InfinityWorks.TechTest": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "/",
