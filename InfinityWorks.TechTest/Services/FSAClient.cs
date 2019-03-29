@@ -8,7 +8,7 @@ namespace InfinityWorks.TechTest.Services
 {
     public class FsaClient : IFsaClient
     {
-        private IHttpClientFactory _httpClientFactory;
+        private readonly IHttpClientFactory _httpClientFactory;
 
         public FsaClient(IHttpClientFactory httpClientFactory)
         {
