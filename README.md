@@ -11,7 +11,7 @@
 ## Getting Started
 
 * Build it: `dotnet build`
-* Run it: `dotnet run`
+* Run it: `dotnet run --project Host`
 * View it: https://localhost:5001 and https://localhost:5001/api
 
 ## Submission
