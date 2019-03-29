@@ -31,7 +31,7 @@ namespace InfinityWorks.TechTest.Test.Controllers
 
             // Assert
             Assert.IsInstanceOf<IEnumerable<Authority>>(jsonResult.Value);
-            var authorities = (jsonResult.Value as IEnumerable<Authority>).ToArray();
+            var authorities = ((IEnumerable<Authority>) jsonResult.Value).ToArray();
             Assert.AreEqual(authorities.Length, 2);
             Assert.AreEqual(authorities[0].Name, "authority1");
             Assert.AreEqual(authorities[0].Id, 1);
