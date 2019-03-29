@@ -3,8 +3,8 @@ using System.Threading.Tasks;
 
 namespace InfinityWorks.TechTest.Services
 {
-    public interface IFSAClient
+    public interface IFsaClient
     {
-        Task<FSAAuthorityList> GetAuthorities();
+        Task<FsaAuthorityList> GetAuthorities();
     }
 }
