@@ -21,7 +21,7 @@ namespace InfinityWorks.TechTest
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddHttpClient();
-            services.AddSingleton<IFSAClient, FSAClient>();
+            services.AddSingleton<IFsaClient, FsaClient>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -2,9 +2,9 @@ using System.Collections.Generic;
 
 namespace InfinityWorks.TechTest.Model
 {
-    public class FSAAuthorityList {
+    public class FsaAuthorityList {
 
-        public List<FSAAuthority> Authorities { get; set; }
+        public List<FsaAuthority> Authorities { get; set; }
 
         public override string ToString()
         {

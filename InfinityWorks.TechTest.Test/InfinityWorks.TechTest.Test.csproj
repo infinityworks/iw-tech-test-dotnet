@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Host\InfinityWorks.TechTest.csproj" />
+    <ProjectReference Include="..\InfinityWorks.TechTest\InfinityWorks.TechTest.csproj" />
   </ItemGroup>
 
 </Project>

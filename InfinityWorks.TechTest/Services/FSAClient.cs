@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace InfinityWorks.TechTest.Services
 {
-    public class FSAClient : IFSAClient
+    public class FsaClient : IFsaClient
     {
-        private IHttpClientFactory httpClientFactory;
+        private readonly IHttpClientFactory _httpClientFactory;
 
-        public FSAClient(IHttpClientFactory httpClientFactory)
+        public FsaClient(IHttpClientFactory httpClientFactory)
         {
-            this.httpClientFactory = httpClientFactory;
+            _httpClientFactory = httpClientFactory;
         }
 
-        public async Task<FSAAuthorityList> GetAuthorities()
+        public async Task<FsaAuthorityList> GetAuthorities()
         {
-            return await GetFSAResource<FSAAuthorityList>("Authorities");
+            return await GetFsaResource<FsaAuthorityList>("Authorities");
         }
 
-        private async Task<T> GetFSAResource<T>(string path)
+        private async Task<T> GetFsaResource<T>(string path)
         {
             var serializer = new JsonSerializer();
-            var client = httpClientFactory.CreateClient();
+            var client = _httpClientFactory.CreateClient();
             client.DefaultRequestHeaders.Add("x-api-version", "2");
 
             var stream = await client.GetStreamAsync($"http://api.ratings.food.gov.uk/{path}");
