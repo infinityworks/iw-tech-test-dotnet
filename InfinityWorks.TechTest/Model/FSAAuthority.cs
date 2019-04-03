@@ -1,6 +1,6 @@
 namespace InfinityWorks.TechTest.Model
 {
-    public class FSAAuthority
+    public class FsaAuthority
     {
         public int LocalAuthorityId { get; set; }
 

@@ -1,9 +1,9 @@
-﻿using InfinityWorks.TechTest.Model;
-using InfinityWorks.TechTest.Services;
-using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using InfinityWorks.TechTest.Model;
+using InfinityWorks.TechTest.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace InfinityWorks.TechTest.Controllers
 {
@@ -11,11 +11,11 @@ namespace InfinityWorks.TechTest.Controllers
     [ApiController]
     public class RatingController : Controller
     {
-        private readonly IFSAClient fSAClient;
+        private readonly IFsaClient _fSaClient;
 
-        public RatingController(IFSAClient fSAClient)
+        public RatingController(IFsaClient fSaClient)
         {
-            this.fSAClient = fSAClient;
+            _fSaClient = fSaClient;
         }
 
         /// <summary>
@@ -27,7 +27,7 @@ namespace InfinityWorks.TechTest.Controllers
         [HttpGet]
         public async Task<JsonResult> GetAsync()
         {
-            var fsaAuthorities = await fSAClient.GetAuthorities();
+            var fsaAuthorities = await _fSaClient.GetAuthorities();
 
             var authorityList = fsaAuthorities.Authorities.Select(authority => new Authority { Id = authority.LocalAuthorityId, Name = authority.Name });
 
