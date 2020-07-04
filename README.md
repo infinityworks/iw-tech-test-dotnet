@@ -4,14 +4,14 @@
 
 ## Prerequisites
 
-* .NET Core SDK 2.2
+* .NET Core SDK 3.1
 * Access to the internet
 * Suitable development environment
 
 ## Getting Started
 
-* Build it: `dotnet build`
-* Run it: `dotnet run --project Host`
+* Build it: `make build`
+* Run it: `make run`
 * View it: https://localhost:5001 and https://localhost:5001/api
 
 ## Submission
