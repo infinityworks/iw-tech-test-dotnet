@@ -21,7 +21,6 @@ namespace InfinityWorks.TechTest
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
-            services.AddControllers().AddNewtonsoftJson();
             services.AddHttpClient();
             services.AddSingleton<IFsaClient, FsaClient>();
         }
@@ -38,14 +37,16 @@ namespace InfinityWorks.TechTest
                 app.UseHsts();
             }
 
-            // app.UseEndpoints(endpoints =>
-            // {
-            //     endpoints.MapControllerRoute("default", "{controller=Rating}/{action=Index}/{id?}");
-            // });
 
+            app.UseHttpsRedirection();
+            app.UseRouting();
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseHttpsRedirection();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }
