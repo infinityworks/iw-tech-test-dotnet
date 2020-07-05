@@ -49,7 +49,6 @@
 
 <script>
     $(function () {
-
         $('.js-authority-select').on('change', function () {
             loadAuthority(this.value);
         });
@@ -63,10 +62,7 @@
                 }
                 selectElem.append('<option value="' + authority.id + '">' + authority.name + '</option>');
             });
-
         });
-
-
     });
 
     function loadAuthority(id) {

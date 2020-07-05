@@ -10,6 +10,7 @@
 
 ## Getting Started
 
+* Restore packages: `make restore`
 * Build it: `make build`
 * Run it: `make run`
 * View it: https://localhost:5001 and https://localhost:5001/api

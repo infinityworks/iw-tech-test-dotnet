@@ -38,9 +38,13 @@ namespace InfinityWorks.TechTest
                 app.UseHsts();
             }
 
+            // app.UseEndpoints(endpoints =>
+            // {
+            //     endpoints.MapControllerRoute("default", "{controller=Rating}/{action=Index}/{id?}");
+            // });
+
             app.UseDefaultFiles();
             app.UseStaticFiles();
-
             app.UseHttpsRedirection();
         }
     }
