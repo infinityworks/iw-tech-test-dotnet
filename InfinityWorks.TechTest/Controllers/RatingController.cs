@@ -28,9 +28,7 @@ namespace InfinityWorks.TechTest.Controllers
         public async Task<JsonResult> GetAsync()
         {
             var fsaAuthorities = await _fSaClient.GetAuthorities();
-
             var authorityList = fsaAuthorities.Authorities.Select(authority => new Authority { Id = authority.LocalAuthorityId, Name = authority.Name });
-
             return Json(authorityList);
         }
 

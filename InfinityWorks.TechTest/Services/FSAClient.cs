@@ -1,7 +1,9 @@
 ﻿using InfinityWorks.TechTest.Model;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System;
 
 namespace InfinityWorks.TechTest.Services
 {
@@ -24,8 +26,8 @@ namespace InfinityWorks.TechTest.Services
             var client = _httpClientFactory.CreateClient();
             client.DefaultRequestHeaders.Add("x-api-version", "2");
 
-            var stream = await client.GetStreamAsync($"http://api.ratings.food.gov.uk/{path}");
-            return await JsonSerializer.DeserializeAsync<T>(stream, new JsonSerializerOptions());
+            var stream = await client.GetStreamAsync($"https://api.ratings.food.gov.uk/{path}");
+            return await JsonSerializer.DeserializeAsync<T>(stream);
         }
     }
 }
