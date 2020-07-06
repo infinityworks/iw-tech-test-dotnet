@@ -4,14 +4,15 @@
 
 ## Prerequisites
 
-* .NET Core SDK 2.2
+* .NET Core SDK 3.1
 * Access to the internet
 * Suitable development environment
 
 ## Getting Started
 
+* Restore packages: `dotnet restore`
 * Build it: `dotnet build`
-* Run it: `dotnet run --project Host`
+* Run it: `dotnet run --project ./InfinityWorks.TechTest/InfinityWorks.TechTest.csproj`
 * View it: https://localhost:5001 and https://localhost:5001/api
 
 ## Submission
