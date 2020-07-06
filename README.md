@@ -10,9 +10,9 @@
 
 ## Getting Started
 
-* Restore packages: `make restore`
-* Build it: `make build`
-* Run it: `make run`
+* Restore packages: `dotnet restore`
+* Build it: `dotnet build`
+* Run it: `dotnet run --project ./InfinityWorks.TechTest/InfinityWorks.TechTest.csproj`
 * View it: https://localhost:5001 and https://localhost:5001/api
 
 ## Submission
