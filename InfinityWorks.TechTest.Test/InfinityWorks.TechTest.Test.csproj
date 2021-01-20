@@ -7,14 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Moq" Version="4.10.1" />
-    <PackageReference Include="nunit" Version="3.10.1" />
-    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageReference Include="Moq" Version="4.16.0" />
+    <PackageReference Include="nunit" Version="3.13.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.2" />
 
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="2.2.0" />
-    <PackageReference Include="System.Json" Version="4.5.0" />
+    <PackageReference Include="System.Json" Version="4.7.1" />
   </ItemGroup>
 
   <ItemGroup>
