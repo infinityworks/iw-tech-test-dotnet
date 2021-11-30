@@ -20,7 +20,9 @@ namespace InfinityWorks.TechTest
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
+            services.AddMvc()
+                .SetCompatibilityVersion(CompatibilityVersion.Latest)
+                .AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNameCaseInsensitive = true);
             services.AddHttpClient();
             services.AddSingleton<IFsaClient, FsaClient>();
         }
@@ -36,6 +38,8 @@ namespace InfinityWorks.TechTest
             {
                 app.UseHsts();
             }
+
+
 
 
             app.UseHttpsRedirection();
