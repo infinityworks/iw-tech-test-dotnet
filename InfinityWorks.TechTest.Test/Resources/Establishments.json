@@ -1,0 +1,202 @@
+﻿{
+  "establishments": [
+    {
+      "FHRSID": 1,
+      "ChangesByServerID": 2,
+      "LocalAuthorityBusinessID": "sample string 3",
+      "BusinessName": "sample string 4",
+      "BusinessType": "sample string 5",
+      "BusinessTypeID": 6,
+      "AddressLine1": "sample string 7",
+      "AddressLine2": "sample string 8",
+      "AddressLine3": "sample string 9",
+      "AddressLine4": "sample string 10",
+      "PostCode": "sample string 11",
+      "Phone": "sample string 12",
+      "RatingValue": "sample string 13",
+      "RatingKey": "sample string 14",
+      "RatingDate": "2021-12-01T12:58:08.6549314+00:00",
+      "LocalAuthorityCode": "sample string 18",
+      "LocalAuthorityName": "sample string 20",
+      "LocalAuthorityWebSite": "sample string 21",
+      "LocalAuthorityEmailAddress": "sample string 22",
+      "scores": {
+        "Hygiene": 1,
+        "Structural": 1,
+        "ConfidenceInManagement": 1
+      },
+      "SchemeType": "sample string 23",
+      "geocode": {
+        "longitude": "1.1",
+        "latitude": "1.1"
+      },
+      "RightToReply": "sample string 24",
+      "Distance": 1.1,
+      "NewRatingPending": true,
+      "meta": {
+        "dataSource": "sample string 1",
+        "extractDate": "2021-12-01T12:58:08.6549314+00:00",
+        "itemCount": 3,
+        "returncode": "sample string 4",
+        "totalCount": 5,
+        "totalPages": 6,
+        "pageSize": 7,
+        "pageNumber": 8
+      },
+      "links": [
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        }
+      ]
+    },
+    {
+      "FHRSID": 1,
+      "ChangesByServerID": 2,
+      "LocalAuthorityBusinessID": "sample string 3",
+      "BusinessName": "sample string 4",
+      "BusinessType": "sample string 5",
+      "BusinessTypeID": 6,
+      "AddressLine1": "sample string 7",
+      "AddressLine2": "sample string 8",
+      "AddressLine3": "sample string 9",
+      "AddressLine4": "sample string 10",
+      "PostCode": "sample string 11",
+      "Phone": "sample string 12",
+      "RatingValue": "sample string 13",
+      "RatingKey": "sample string 14",
+      "RatingDate": "2021-12-01T12:58:08.6549314+00:00",
+      "LocalAuthorityCode": "sample string 18",
+      "LocalAuthorityName": "sample string 20",
+      "LocalAuthorityWebSite": "sample string 21",
+      "LocalAuthorityEmailAddress": "sample string 22",
+      "scores": {
+        "Hygiene": 1,
+        "Structural": 1,
+        "ConfidenceInManagement": 1
+      },
+      "SchemeType": "sample string 23",
+      "geocode": {
+        "longitude": "1.1",
+        "latitude": "1.1"
+      },
+      "RightToReply": "sample string 24",
+      "Distance": 1.1,
+      "NewRatingPending": true,
+      "meta": {
+        "dataSource": "sample string 1",
+        "extractDate": "2021-12-01T12:58:08.6549314+00:00",
+        "itemCount": 3,
+        "returncode": "sample string 4",
+        "totalCount": 5,
+        "totalPages": 6,
+        "pageSize": 7,
+        "pageNumber": 8
+      },
+      "links": [
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        }
+      ]
+    },
+    {
+      "FHRSID": 1,
+      "ChangesByServerID": 2,
+      "LocalAuthorityBusinessID": "sample string 3",
+      "BusinessName": "sample string 4",
+      "BusinessType": "sample string 5",
+      "BusinessTypeID": 6,
+      "AddressLine1": "sample string 7",
+      "AddressLine2": "sample string 8",
+      "AddressLine3": "sample string 9",
+      "AddressLine4": "sample string 10",
+      "PostCode": "sample string 11",
+      "Phone": "sample string 12",
+      "RatingValue": "sample string 13",
+      "RatingKey": "sample string 14",
+      "RatingDate": "2021-12-01T12:58:08.6549314+00:00",
+      "LocalAuthorityCode": "sample string 18",
+      "LocalAuthorityName": "sample string 20",
+      "LocalAuthorityWebSite": "sample string 21",
+      "LocalAuthorityEmailAddress": "sample string 22",
+      "scores": {
+        "Hygiene": 1,
+        "Structural": 1,
+        "ConfidenceInManagement": 1
+      },
+      "SchemeType": "sample string 23",
+      "geocode": {
+        "longitude": "1.1",
+        "latitude": "1.1"
+      },
+      "RightToReply": "sample string 24",
+      "Distance": 1.1,
+      "NewRatingPending": true,
+      "meta": {
+        "dataSource": "sample string 1",
+        "extractDate": "2021-12-01T12:58:08.6549314+00:00",
+        "itemCount": 3,
+        "returncode": "sample string 4",
+        "totalCount": 5,
+        "totalPages": 6,
+        "pageSize": 7,
+        "pageNumber": 8
+      },
+      "links": [
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "dataSource": "sample string 1",
+    "extractDate": "2021-12-01T12:58:08.6549314+00:00",
+    "itemCount": 3,
+    "returncode": "sample string 4",
+    "totalCount": 5,
+    "totalPages": 6,
+    "pageSize": 7,
+    "pageNumber": 8
+  },
+  "links": [
+    {
+      "rel": "sample string 1",
+      "href": "sample string 2"
+    },
+    {
+      "rel": "sample string 1",
+      "href": "sample string 2"
+    },
+    {
+      "rel": "sample string 1",
+      "href": "sample string 2"
+    }
+  ]
+}

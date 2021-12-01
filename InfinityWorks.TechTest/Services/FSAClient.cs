@@ -19,6 +19,11 @@ namespace InfinityWorks.TechTest.Services
             return await GetFsaResource<FsaAuthorityList>("Authorities");
         }
 
+        public Task<AuthorityRatingItem> GetAuthorityRatingItems(int localAuthorityId)
+        {
+            throw new System.NotImplementedException();
+        }
+
         private async Task<T> GetFsaResource<T>(string path)
         {
             var client = _httpClientFactory.CreateClient();

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <IsPackable>false</IsPackable>
@@ -13,4 +13,8 @@
   <ItemGroup>
     <ProjectReference Include="..\InfinityWorks.TechTest\InfinityWorks.TechTest.csproj" />
   </ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\Authorities.json" />
+		<EmbeddedResource Include="Resources\Establishments.json" />
+	</ItemGroup>
 </Project>

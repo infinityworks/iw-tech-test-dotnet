@@ -1,16 +1,13 @@
-﻿using InfinityWorks.TechTest.Model;
-using InfinityWorks.TechTest.Services;
+﻿using InfinityWorks.TechTest.Services;
 using InfinityWorks.TechTest.Test.Data;
 using InfinityWorks.TechTest.Test.Helpers;
 using KellermanSoftware.CompareNetObjects;
-using Newtonsoft.Json;
 using NUnit.Framework;
 using System.Threading.Tasks;
 
 namespace InfinityWorks.TechTest.Test.Services
 {
-
-    class FsaClientTests
+    internal class FsaClientTests
     {
         private CompareLogic comparer;
 
@@ -24,7 +21,7 @@ namespace InfinityWorks.TechTest.Test.Services
         public async Task GetAuthorities_ReturnsA_FsaAuthorityList()
         {
             // Arrange
-            var expected = JsonConvert.DeserializeObject<FsaAuthorityList>(FsaClientTestData.AuthorityData);
+            var expected = FsaClientTestData.GetAuthorityData();
 
             IFsaClient fsaClient = new FsaClient(
                 MockHttpClientFactory.GetMockHttpClientFactory(
@@ -48,14 +45,11 @@ namespace InfinityWorks.TechTest.Test.Services
                 MockHttpClientFactory.GetMockHttpClientFactory(
                     FsaClientTestData.Establishments).Object);
 
-            // STEP 1 uncomment the code below and fix the build errors
-            // STEP 2 write the necessary code to make the test pass
-
             // Act
-            //var actual = await fsaClient.GetAuthorityRatingItems(localAuthorityId);
+            var actual = await fsaClient.GetAuthorityRatingItems(localAuthorityId);
 
-            //// Assert
-            //Assert.IsTrue(comparer.Compare(expected, actual).AreEqual);
+            // Assert
+            Assert.IsTrue(comparer.Compare(expected, actual).AreEqual);
         }
     }
 }

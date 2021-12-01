@@ -1,0 +1,118 @@
+﻿{
+  "authorities": [
+    {
+      "LocalAuthorityId": 1,
+      "LocalAuthorityIdCode": "sample string 2",
+      "Name": "sample string 3",
+      "FriendlyName": "sample string 4",
+      "Url": "sample string 5",
+      "SchemeUrl": "sample string 6",
+      "Email": "sample string 7",
+      "RegionName": "sample string 8",
+      "FileName": "sample string 9",
+      "FileNameWelsh": "sample string 10",
+      "EstablishmentCount": 11,
+      "CreationDate": "2021-12-01T12:05:55.2192061+00:00",
+      "LastPublishedDate": "2021-12-01T12:05:55.2192061+00:00",
+      "SchemeType": 14,
+      "links": [
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        }
+      ]
+    },
+    {
+      "LocalAuthorityId": 1,
+      "LocalAuthorityIdCode": "sample string 2",
+      "Name": "sample string 3",
+      "FriendlyName": "sample string 4",
+      "Url": "sample string 5",
+      "SchemeUrl": "sample string 6",
+      "Email": "sample string 7",
+      "RegionName": "sample string 8",
+      "FileName": "sample string 9",
+      "FileNameWelsh": "sample string 10",
+      "EstablishmentCount": 11,
+      "CreationDate": "2021-12-01T12:05:55.2192061+00:00",
+      "LastPublishedDate": "2021-12-01T12:05:55.2192061+00:00",
+      "SchemeType": 14,
+      "links": [
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        }
+      ]
+    },
+    {
+      "LocalAuthorityId": 1,
+      "LocalAuthorityIdCode": "sample string 2",
+      "Name": "sample string 3",
+      "FriendlyName": "sample string 4",
+      "Url": "sample string 5",
+      "SchemeUrl": "sample string 6",
+      "Email": "sample string 7",
+      "RegionName": "sample string 8",
+      "FileName": "sample string 9",
+      "FileNameWelsh": "sample string 10",
+      "EstablishmentCount": 11,
+      "CreationDate": "2021-12-01T12:05:55.2192061+00:00",
+      "LastPublishedDate": "2021-12-01T12:05:55.2192061+00:00",
+      "SchemeType": 14,
+      "links": [
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        },
+        {
+          "rel": "sample string 1",
+          "href": "sample string 2"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "dataSource": "sample string 1",
+    "extractDate": "2021-12-01T12:05:55.2192061+00:00",
+    "itemCount": 3,
+    "returncode": "sample string 4",
+    "totalCount": 5,
+    "totalPages": 6,
+    "pageSize": 7,
+    "pageNumber": 8
+  },
+  "links": [
+    {
+      "rel": "sample string 1",
+      "href": "sample string 2"
+    },
+    {
+      "rel": "sample string 1",
+      "href": "sample string 2"
+    },
+    {
+      "rel": "sample string 1",
+      "href": "sample string 2"
+    }
+  ]
+}
