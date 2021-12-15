@@ -22,7 +22,7 @@ namespace InfinityWorks.TechTest.Test.Data
                 new AuthorityRatingItem
                 {
                     Name = "5",
-                    Value = 33.33
+                    Value = 100
                 }
             };
         }
