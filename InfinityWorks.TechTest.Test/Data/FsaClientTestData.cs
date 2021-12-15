@@ -21,8 +21,8 @@ namespace InfinityWorks.TechTest.Test.Data
             {
                 new AuthorityRatingItem
                 {
-                    Name = "sample string 13",
-                    Value = 100
+                    Name = "5",
+                    Value = 33.33
                 }
             };
         }

@@ -1,4 +1,6 @@
 ﻿using InfinityWorks.TechTest.Model;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -19,7 +21,7 @@ namespace InfinityWorks.TechTest.Services
             return await GetFsaResource<FsaAuthorityList>("Authorities");
         }
 
-        public Task<AuthorityRatingItem> GetAuthorityRatingItems(int localAuthorityId)
+        public Task<IEnumerable<AuthorityRatingItem>> GetAuthorityRatingItems(int localAuthorityId)
         {
             throw new System.NotImplementedException();
         }

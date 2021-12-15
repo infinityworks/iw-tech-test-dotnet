@@ -1,118 +1,86 @@
 ﻿{
   "authorities": [
     {
-      "LocalAuthorityId": 1,
-      "LocalAuthorityIdCode": "sample string 2",
-      "Name": "sample string 3",
-      "FriendlyName": "sample string 4",
-      "Url": "sample string 5",
-      "SchemeUrl": "sample string 6",
-      "Email": "sample string 7",
-      "RegionName": "sample string 8",
-      "FileName": "sample string 9",
-      "FileNameWelsh": "sample string 10",
-      "EstablishmentCount": 11,
-      "CreationDate": "2021-12-01T12:05:55.2192061+00:00",
-      "LastPublishedDate": "2021-12-01T12:05:55.2192061+00:00",
-      "SchemeType": 14,
+      "LocalAuthorityId": 197,
+      "LocalAuthorityIdCode": "760",
+      "Name": "Aberdeen City",
+      "FriendlyName": "aberdeen-city",
+      "Url": "http://www.aberdeencity.gov.uk",
+      "SchemeUrl": "",
+      "Email": "commercial@aberdeencity.gov.uk",
+      "RegionName": "Scotland",
+      "FileName": "http://ratings.food.gov.uk/OpenDataFiles/FHRS760en-GB.xml",
+      "FileNameWelsh": null,
+      "EstablishmentCount": 2117,
+      "CreationDate": "2010-08-17T15:30:24.87",
+      "LastPublishedDate": "2021-12-15T00:32:50.53",
+      "SchemeType": 2,
       "links": [
         {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
+          "rel": "self",
+          "href": "http://api.ratings.food.gov.uk/authorities/197"
         }
       ]
     },
     {
-      "LocalAuthorityId": 1,
-      "LocalAuthorityIdCode": "sample string 2",
-      "Name": "sample string 3",
-      "FriendlyName": "sample string 4",
-      "Url": "sample string 5",
-      "SchemeUrl": "sample string 6",
-      "Email": "sample string 7",
-      "RegionName": "sample string 8",
-      "FileName": "sample string 9",
-      "FileNameWelsh": "sample string 10",
-      "EstablishmentCount": 11,
-      "CreationDate": "2021-12-01T12:05:55.2192061+00:00",
-      "LastPublishedDate": "2021-12-01T12:05:55.2192061+00:00",
-      "SchemeType": 14,
+      "LocalAuthorityId": 198,
+      "LocalAuthorityIdCode": "761",
+      "Name": "Aberdeenshire",
+      "FriendlyName": "aberdeenshire",
+      "Url": "http://www.aberdeenshire.gov.uk/",
+      "SchemeUrl": "",
+      "Email": "environmental@aberdeenshire.gov.uk",
+      "RegionName": "Scotland",
+      "FileName": "http://ratings.food.gov.uk/OpenDataFiles/FHRS761en-GB.xml",
+      "FileNameWelsh": null,
+      "EstablishmentCount": 2500,
+      "CreationDate": "2010-08-17T15:30:24.87",
+      "LastPublishedDate": "2021-12-14T00:32:25.89",
+      "SchemeType": 2,
       "links": [
         {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
+          "rel": "self",
+          "href": "http://api.ratings.food.gov.uk/authorities/198"
         }
       ]
     },
     {
-      "LocalAuthorityId": 1,
-      "LocalAuthorityIdCode": "sample string 2",
-      "Name": "sample string 3",
-      "FriendlyName": "sample string 4",
-      "Url": "sample string 5",
-      "SchemeUrl": "sample string 6",
-      "Email": "sample string 7",
-      "RegionName": "sample string 8",
-      "FileName": "sample string 9",
-      "FileNameWelsh": "sample string 10",
-      "EstablishmentCount": 11,
-      "CreationDate": "2021-12-01T12:05:55.2192061+00:00",
-      "LastPublishedDate": "2021-12-01T12:05:55.2192061+00:00",
-      "SchemeType": 14,
+      "LocalAuthorityId": 277,
+      "LocalAuthorityIdCode": "323",
+      "Name": "Adur",
+      "FriendlyName": "adur",
+      "Url": "http://www.adur-worthing.gov.uk",
+      "SchemeUrl": "",
+      "Email": "publichealth.regulation@adur-worthing.gov.uk",
+      "RegionName": "South East",
+      "FileName": "http://ratings.food.gov.uk/OpenDataFiles/FHRS323en-GB.xml",
+      "FileNameWelsh": null,
+      "EstablishmentCount": 508,
+      "CreationDate": "2010-08-17T15:30:24.87",
+      "LastPublishedDate": "2021-12-15T00:33:18.653",
+      "SchemeType": 1,
       "links": [
         {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
+          "rel": "self",
+          "href": "http://api.ratings.food.gov.uk/authorities/277"
         }
       ]
     }
   ],
   "meta": {
-    "dataSource": "sample string 1",
-    "extractDate": "2021-12-01T12:05:55.2192061+00:00",
+    "dataSource": "API",
+    "extractDate": "2021-12-15T16:04:32.5403389+00:00",
     "itemCount": 3,
-    "returncode": "sample string 4",
-    "totalCount": 5,
-    "totalPages": 6,
-    "pageSize": 7,
-    "pageNumber": 8
+    "returncode": "OK",
+    "totalCount": 3,
+    "totalPages": 1,
+    "pageSize": 3,
+    "pageNumber": 1
   },
   "links": [
     {
-      "rel": "sample string 1",
-      "href": "sample string 2"
-    },
-    {
-      "rel": "sample string 1",
-      "href": "sample string 2"
-    },
-    {
-      "rel": "sample string 1",
-      "href": "sample string 2"
+      "rel": "self",
+      "href": "http://api.ratings.food.gov.uk/authorities"
     }
   ]
 }

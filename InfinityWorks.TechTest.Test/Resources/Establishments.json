@@ -1,202 +1,170 @@
 ﻿{
   "establishments": [
     {
-      "FHRSID": 1,
-      "ChangesByServerID": 2,
-      "LocalAuthorityBusinessID": "sample string 3",
-      "BusinessName": "sample string 4",
-      "BusinessType": "sample string 5",
-      "BusinessTypeID": 6,
-      "AddressLine1": "sample string 7",
-      "AddressLine2": "sample string 8",
-      "AddressLine3": "sample string 9",
-      "AddressLine4": "sample string 10",
-      "PostCode": "sample string 11",
-      "Phone": "sample string 12",
-      "RatingValue": "sample string 13",
-      "RatingKey": "sample string 14",
-      "RatingDate": "2021-12-01T12:58:08.6549314+00:00",
-      "LocalAuthorityCode": "sample string 18",
-      "LocalAuthorityName": "sample string 20",
-      "LocalAuthorityWebSite": "sample string 21",
-      "LocalAuthorityEmailAddress": "sample string 22",
+      "FHRSID": 507136,
+      "ChangesByServerID": 0,
+      "LocalAuthorityBusinessID": "PI/000081182",
+      "BusinessName": "196",
+      "BusinessType": "Restaurant/Cafe/Canteen",
+      "BusinessTypeID": 1,
+      "AddressLine1": "Cambridge",
+      "AddressLine2": "Cambridgeshire",
+      "AddressLine3": "",
+      "AddressLine4": "",
+      "PostCode": "CB1 3NF",
+      "Phone": "",
+      "RatingValue": "5",
+      "RatingKey": "fhrs_5_en-gb",
+      "RatingDate": "2015-01-22T00:00:00",
+      "LocalAuthorityCode": "027",
+      "LocalAuthorityName": "Cambridge City",
+      "LocalAuthorityWebSite": "http://www.cambridge.gov.uk",
+      "LocalAuthorityEmailAddress": "env.health@cambridge.gov.uk",
       "scores": {
-        "Hygiene": 1,
-        "Structural": 1,
-        "ConfidenceInManagement": 1
+        "Hygiene": 5,
+        "Structural": 0,
+        "ConfidenceInManagement": 5
       },
-      "SchemeType": "sample string 23",
+      "SchemeType": "FHRS",
       "geocode": {
-        "longitude": "1.1",
-        "latitude": "1.1"
+        "longitude": "0.145033",
+        "latitude": "52.197345"
       },
-      "RightToReply": "sample string 24",
-      "Distance": 1.1,
-      "NewRatingPending": true,
+      "RightToReply": "",
+      "Distance": null,
+      "NewRatingPending": false,
       "meta": {
-        "dataSource": "sample string 1",
-        "extractDate": "2021-12-01T12:58:08.6549314+00:00",
-        "itemCount": 3,
-        "returncode": "sample string 4",
-        "totalCount": 5,
-        "totalPages": 6,
-        "pageSize": 7,
-        "pageNumber": 8
+        "dataSource": null,
+        "extractDate": "0001-01-01T00:00:00",
+        "itemCount": 0,
+        "returncode": null,
+        "totalCount": 0,
+        "totalPages": 0,
+        "pageSize": 0,
+        "pageNumber": 0
       },
       "links": [
         {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
+          "rel": "self",
+          "href": "http://api.ratings.food.gov.uk/establishments/507136"
         }
       ]
     },
     {
-      "FHRSID": 1,
-      "ChangesByServerID": 2,
-      "LocalAuthorityBusinessID": "sample string 3",
-      "BusinessName": "sample string 4",
-      "BusinessType": "sample string 5",
-      "BusinessTypeID": 6,
-      "AddressLine1": "sample string 7",
-      "AddressLine2": "sample string 8",
-      "AddressLine3": "sample string 9",
-      "AddressLine4": "sample string 10",
-      "PostCode": "sample string 11",
-      "Phone": "sample string 12",
-      "RatingValue": "sample string 13",
-      "RatingKey": "sample string 14",
-      "RatingDate": "2021-12-01T12:58:08.6549314+00:00",
-      "LocalAuthorityCode": "sample string 18",
-      "LocalAuthorityName": "sample string 20",
-      "LocalAuthorityWebSite": "sample string 21",
-      "LocalAuthorityEmailAddress": "sample string 22",
+      "FHRSID": 506015,
+      "ChangesByServerID": 0,
+      "LocalAuthorityBusinessID": "PI/000004022",
+      "BusinessName": "5 Chapel Street B&B",
+      "BusinessType": "Hotel/bed & breakfast/guest house",
+      "BusinessTypeID": 7842,
+      "AddressLine1": "5 Chapel Street",
+      "AddressLine2": "Cambridge",
+      "AddressLine3": "Cambridgeshire",
+      "AddressLine4": "",
+      "PostCode": "CB4 1DY",
+      "Phone": "",
+      "RatingValue": "5",
+      "RatingKey": "fhrs_5_en-gb",
+      "RatingDate": "2015-11-24T00:00:00",
+      "LocalAuthorityCode": "027",
+      "LocalAuthorityName": "Cambridge City",
+      "LocalAuthorityWebSite": "http://www.cambridge.gov.uk",
+      "LocalAuthorityEmailAddress": "env.health@cambridge.gov.uk",
       "scores": {
-        "Hygiene": 1,
-        "Structural": 1,
-        "ConfidenceInManagement": 1
+        "Hygiene": 0,
+        "Structural": 0,
+        "ConfidenceInManagement": 0
       },
-      "SchemeType": "sample string 23",
+      "SchemeType": "FHRS",
       "geocode": {
-        "longitude": "1.1",
-        "latitude": "1.1"
+        "longitude": "0.140305",
+        "latitude": "52.217394"
       },
-      "RightToReply": "sample string 24",
-      "Distance": 1.1,
-      "NewRatingPending": true,
+      "RightToReply": "",
+      "Distance": null,
+      "NewRatingPending": false,
       "meta": {
-        "dataSource": "sample string 1",
-        "extractDate": "2021-12-01T12:58:08.6549314+00:00",
-        "itemCount": 3,
-        "returncode": "sample string 4",
-        "totalCount": 5,
-        "totalPages": 6,
-        "pageSize": 7,
-        "pageNumber": 8
+        "dataSource": null,
+        "extractDate": "0001-01-01T00:00:00",
+        "itemCount": 0,
+        "returncode": null,
+        "totalCount": 0,
+        "totalPages": 0,
+        "pageSize": 0,
+        "pageNumber": 0
       },
       "links": [
         {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
+          "rel": "self",
+          "href": "http://api.ratings.food.gov.uk/establishments/506015"
         }
       ]
     },
     {
-      "FHRSID": 1,
-      "ChangesByServerID": 2,
-      "LocalAuthorityBusinessID": "sample string 3",
-      "BusinessName": "sample string 4",
-      "BusinessType": "sample string 5",
-      "BusinessTypeID": 6,
-      "AddressLine1": "sample string 7",
-      "AddressLine2": "sample string 8",
-      "AddressLine3": "sample string 9",
-      "AddressLine4": "sample string 10",
-      "PostCode": "sample string 11",
-      "Phone": "sample string 12",
-      "RatingValue": "sample string 13",
-      "RatingKey": "sample string 14",
-      "RatingDate": "2021-12-01T12:58:08.6549314+00:00",
-      "LocalAuthorityCode": "sample string 18",
-      "LocalAuthorityName": "sample string 20",
-      "LocalAuthorityWebSite": "sample string 21",
-      "LocalAuthorityEmailAddress": "sample string 22",
+      "FHRSID": 506523,
+      "ChangesByServerID": 0,
+      "LocalAuthorityBusinessID": "PI/000023874",
+      "BusinessName": "A WALLER & SON",
+      "BusinessType": "Manufacturers/packers",
+      "BusinessTypeID": 7839,
+      "AddressLine1": "15 Victoria Avenue",
+      "AddressLine2": "Cambridge",
+      "AddressLine3": "Cambridgeshire",
+      "AddressLine4": "",
+      "PostCode": "CB4 1EG",
+      "Phone": "",
+      "RatingValue": "5",
+      "RatingKey": "fhrs_5_en-gb",
+      "RatingDate": "2018-09-11T00:00:00",
+      "LocalAuthorityCode": "027",
+      "LocalAuthorityName": "Cambridge City",
+      "LocalAuthorityWebSite": "http://www.cambridge.gov.uk",
+      "LocalAuthorityEmailAddress": "env.health@cambridge.gov.uk",
       "scores": {
-        "Hygiene": 1,
-        "Structural": 1,
-        "ConfidenceInManagement": 1
+        "Hygiene": 0,
+        "Structural": 5,
+        "ConfidenceInManagement": 5
       },
-      "SchemeType": "sample string 23",
+      "SchemeType": "FHRS",
       "geocode": {
-        "longitude": "1.1",
-        "latitude": "1.1"
+        "longitude": "0.125999",
+        "latitude": "52.213957"
       },
-      "RightToReply": "sample string 24",
-      "Distance": 1.1,
-      "NewRatingPending": true,
+      "RightToReply": "",
+      "Distance": null,
+      "NewRatingPending": false,
       "meta": {
-        "dataSource": "sample string 1",
-        "extractDate": "2021-12-01T12:58:08.6549314+00:00",
-        "itemCount": 3,
-        "returncode": "sample string 4",
-        "totalCount": 5,
-        "totalPages": 6,
-        "pageSize": 7,
-        "pageNumber": 8
+        "dataSource": null,
+        "extractDate": "0001-01-01T00:00:00",
+        "itemCount": 0,
+        "returncode": null,
+        "totalCount": 0,
+        "totalPages": 0,
+        "pageSize": 0,
+        "pageNumber": 0
       },
       "links": [
         {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
-        },
-        {
-          "rel": "sample string 1",
-          "href": "sample string 2"
+          "rel": "self",
+          "href": "http://api.ratings.food.gov.uk/establishments/506523"
         }
       ]
     }
   ],
   "meta": {
-    "dataSource": "sample string 1",
-    "extractDate": "2021-12-01T12:58:08.6549314+00:00",
+    "dataSource": "Lucene",
+    "extractDate": "2021-12-15T16:09:33.2321333+00:00",
     "itemCount": 3,
-    "returncode": "sample string 4",
-    "totalCount": 5,
-    "totalPages": 6,
-    "pageSize": 7,
-    "pageNumber": 8
+    "returncode": "OK",
+    "totalCount": 3,
+    "totalPages": 1,
+    "pageSize": 5,
+    "pageNumber": 1
   },
   "links": [
     {
-      "rel": "sample string 1",
-      "href": "sample string 2"
-    },
-    {
-      "rel": "sample string 1",
-      "href": "sample string 2"
-    },
-    {
-      "rel": "sample string 1",
-      "href": "sample string 2"
+      "rel": "self",
+      "href": "http://api.ratings.food.gov.uk/establishments?localauthorityid=1"
     }
   ]
 }

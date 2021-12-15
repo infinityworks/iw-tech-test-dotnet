@@ -1,4 +1,5 @@
 ﻿using InfinityWorks.TechTest.Model;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace InfinityWorks.TechTest.Services
@@ -7,6 +8,6 @@ namespace InfinityWorks.TechTest.Services
     {
         Task<FsaAuthorityList> GetAuthorities();
 
-        Task<AuthorityRatingItem> GetAuthorityRatingItems(int localAuthorityId);
+        Task<IEnumerable<AuthorityRatingItem>> GetAuthorityRatingItems(int localAuthorityId);
     }
 }
