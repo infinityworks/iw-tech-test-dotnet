@@ -22,7 +22,41 @@ namespace InfinityWorks.TechTest.Test.Data
                 new AuthorityRatingItem
                 {
                     Name = "5",
-                    Value = 100
+                    Value = 55
+                },
+                new AuthorityRatingItem
+                {
+                    Name = "4",
+                    Value = 16
+                },
+                new AuthorityRatingItem
+                {
+                    Name = "3",
+                    Value = 6
+                },
+                new AuthorityRatingItem
+                {
+                    Name = "2",
+                    Value = 1
+                },
+                new AuthorityRatingItem
+                {
+                    Name = "1",
+                    Value = 0
+                },
+                new AuthorityRatingItem
+                {
+                    Name = "0",
+                    Value = 0
+                },
+                new AuthorityRatingItem
+                {
+                    Name = "AwaitingInspection",
+                    Value = 16
+                },new AuthorityRatingItem
+                {
+                    Name = "Exempt",
+                    Value = 6
                 }
             };
         }
