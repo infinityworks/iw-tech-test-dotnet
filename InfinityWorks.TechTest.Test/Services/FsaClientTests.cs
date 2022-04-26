@@ -3,20 +3,13 @@ using InfinityWorks.TechTest.Test.Data;
 using InfinityWorks.TechTest.Test.Helpers;
 using KellermanSoftware.CompareNetObjects;
 using NUnit.Framework;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace InfinityWorks.TechTest.Test.Services
 {
     internal class FsaClientTests
     {
-        private CompareLogic comparer;
-
-        [SetUp]
-        public void Setup()
-        {
-            comparer = new CompareLogic();
-        }
-
         [TestCase]
         public async Task GetAuthorities_ReturnsA_FsaAuthorityList()
         {
@@ -31,7 +24,7 @@ namespace InfinityWorks.TechTest.Test.Services
             var actual = await fsaClient.GetAuthorities();
 
             // Assert
-            Assert.IsTrue(comparer.Compare(expected, actual).AreEqual);
+            actual.ShouldCompare(expected);
         }
 
         [TestCase]
@@ -43,13 +36,13 @@ namespace InfinityWorks.TechTest.Test.Services
 
             IFsaClient fsaClient = new FsaClient(
                 MockHttpClientFactory.GetMockHttpClientFactory(
-                    FsaClientTestData.Establishments).Object);
+                    FsaClientTestData.FHRSEstablishments).Object);
 
             // Act
             var actual = await fsaClient.GetAuthorityRatingItems(localAuthorityId);
 
             // Assert
-            Assert.IsTrue(comparer.Compare(expected, actual).AreEqual);
+            actual.ToList().ShouldCompare(expected);
         }
     }
 }
