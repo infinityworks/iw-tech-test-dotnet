@@ -43,26 +43,25 @@ namespace InfinityWorks.TechTest.Controllers
         public async Task<JsonResult> Get(int authorityId)
         {
             //This is just sample data to demonstrate the contract of the API
-            var ratings = await _fSaClient.GetAuthorityRatingItems(authorityId);
-            //    new List<AuthorityRatingItem>();
-            //if (authorityId == 1)
-            //{
-            //    ratings.Add(new AuthorityRatingItem { Name = "5-star", Value = 22.41 });
-            //    ratings.Add(new AuthorityRatingItem { Name = "4-star", Value = 43.13 });
-            //    ratings.Add(new AuthorityRatingItem { Name = "3-star", Value = 12.97 });
-            //    ratings.Add(new AuthorityRatingItem { Name = "2-star", Value = 1.54 });
-            //    ratings.Add(new AuthorityRatingItem { Name = "1-star", Value = 17.84 });
-            //    ratings.Add(new AuthorityRatingItem { Name = "Exempt", Value = 2.11 });
-            //}
-            //else
-            //{
-            //    ratings.Add(new AuthorityRatingItem { Name = "5-star", Value = 50 });
-            //    ratings.Add(new AuthorityRatingItem { Name = "4-star", Value = 0 });
-            //    ratings.Add(new AuthorityRatingItem { Name = "3-star", Value = 0 });
-            //    ratings.Add(new AuthorityRatingItem { Name = "2-star", Value = 0 });
-            //    ratings.Add(new AuthorityRatingItem { Name = "1-star", Value = 25 });
-            //    ratings.Add(new AuthorityRatingItem { Name = "Exempt", Value = 25 });
-            //}
+            var ratings = new List<AuthorityRatingItem>();
+            if (authorityId == 1)
+            {
+                ratings.Add(new AuthorityRatingItem { Name = "5-star", Value = 22.41 });
+                ratings.Add(new AuthorityRatingItem { Name = "4-star", Value = 43.13 });
+                ratings.Add(new AuthorityRatingItem { Name = "3-star", Value = 12.97 });
+                ratings.Add(new AuthorityRatingItem { Name = "2-star", Value = 1.54 });
+                ratings.Add(new AuthorityRatingItem { Name = "1-star", Value = 17.84 });
+                ratings.Add(new AuthorityRatingItem { Name = "Exempt", Value = 2.11 });
+            }
+            else
+            {
+                ratings.Add(new AuthorityRatingItem { Name = "5-star", Value = 50 });
+                ratings.Add(new AuthorityRatingItem { Name = "4-star", Value = 0 });
+                ratings.Add(new AuthorityRatingItem { Name = "3-star", Value = 0 });
+                ratings.Add(new AuthorityRatingItem { Name = "2-star", Value = 0 });
+                ratings.Add(new AuthorityRatingItem { Name = "1-star", Value = 25 });
+                ratings.Add(new AuthorityRatingItem { Name = "Exempt", Value = 25 });
+            }
 
             return Json(ratings);
         }
