@@ -15,11 +15,13 @@ namespace InfinityWorks.TechTest.Test.Controllers
         public async Task GetAsync_ReturnsAllAuthorities()
         {
             // Arrange
-            var authorityList = new FsaAuthorityList();
-            authorityList.Authorities = new List<FsaAuthority>
+            var authorityList = new FsaAuthorityList
             {
-                new FsaAuthority { Name = "authority1", LocalAuthorityId = 1 },
-                new FsaAuthority { Name = "authority2", LocalAuthorityId = 2 }
+                Authorities = new List<FsaAuthority>
+                {
+                    new FsaAuthority { Name = "authority1", LocalAuthorityId = 1 },
+                    new FsaAuthority { Name = "authority2", LocalAuthorityId = 2 }
+                }
             };
 
             var fsaClient = new Mock<IFsaClient>();

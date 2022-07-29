@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-* .NET SDK 5.0
+* .NET SDK 6.0
 * Access to the internet
 * Suitable development environment
 
