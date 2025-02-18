@@ -1,9 +1,7 @@
-﻿using InfinityWorks.TechTest.Model;
-using System.Net.Http;
+﻿using NGE.TechTest.Model;
 using System.Text.Json;
-using System.Threading.Tasks;
 
-namespace InfinityWorks.TechTest.Services
+namespace NGE.TechTest.Services
 {
     public class FsaClient : IFsaClient
     {

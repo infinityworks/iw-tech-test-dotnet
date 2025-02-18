@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\InfinityWorks.TechTest\InfinityWorks.TechTest.csproj" />
+    <ProjectReference Include="..\NGE.TechTest\NGE.TechTest.csproj" />
   </ItemGroup>
 
 </Project>

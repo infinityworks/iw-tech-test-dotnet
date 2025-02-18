@@ -1,11 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using InfinityWorks.TechTest.Model;
-using InfinityWorks.TechTest.Services;
+﻿using NGE.TechTest.Model;
+using NGE.TechTest.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace InfinityWorks.TechTest.Controllers
+namespace NGE.TechTest.Controllers
 {
     [Route("api/")]
     [ApiController]

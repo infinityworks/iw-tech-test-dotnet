@@ -1,4 +1,4 @@
-# Infinity Works - Full Stack Tech Test
+# NGE - Full Stack Tech Test
 
 ![Preview of Frontend](preview.png)
 
@@ -12,7 +12,7 @@
 
 - Restore packages: `dotnet restore`
 - Build it: `dotnet build`
-- Run it: `dotnet run --project ./InfinityWorks.TechTest/InfinityWorks.TechTest.csproj`
+- Run it: `dotnet run --project ./NGE.TechTest/NGE.TechTest.csproj`
 - View it: https://localhost:5001 and https://localhost:5001/api
 
 ## Submission

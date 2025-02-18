@@ -1,13 +1,13 @@
-﻿using InfinityWorks.TechTest.Controllers;
-using InfinityWorks.TechTest.Model;
-using InfinityWorks.TechTest.Services;
+﻿using NGE.TechTest.Controllers;
+using NGE.TechTest.Model;
+using NGE.TechTest.Services;
 using Moq;
 using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace InfinityWorks.TechTest.Test.Controllers
+namespace NGE.TechTest.Test.Controllers
 {
     class RatingControllerTests
     {
@@ -33,7 +33,7 @@ namespace InfinityWorks.TechTest.Test.Controllers
 
             // Assert
             Assert.IsInstanceOf<IEnumerable<Authority>>(jsonResult.Value);
-            var authorities = ((IEnumerable<Authority>) jsonResult.Value).ToArray();
+            var authorities = ((IEnumerable<Authority>)jsonResult.Value).ToArray();
             Assert.AreEqual(authorities.Length, 2);
             Assert.AreEqual(authorities[0].Name, "authority1");
             Assert.AreEqual(authorities[0].Id, 1);

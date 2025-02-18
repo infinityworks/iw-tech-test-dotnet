@@ -1,4 +1,4 @@
-﻿using InfinityWorks.TechTest.Services;
+﻿using NGE.TechTest.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

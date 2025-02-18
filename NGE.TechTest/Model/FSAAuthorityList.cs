@@ -1,9 +1,9 @@
-using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace InfinityWorks.TechTest.Model
+namespace NGE.TechTest.Model
 {
-    public class FsaAuthorityList {
+    public class FsaAuthorityList
+    {
 
         [JsonPropertyName("authorities")]
         public List<FsaAuthority> Authorities { get; set; }

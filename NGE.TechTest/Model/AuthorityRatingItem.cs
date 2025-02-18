@@ -1,4 +1,4 @@
-namespace InfinityWorks.TechTest.Model
+namespace NGE.TechTest.Model
 {
     /// <summary>
     /// A single rating item.
