@@ -32,13 +32,13 @@ namespace NGE.TechTest.Test.Controllers
             var jsonResult = await controller.GetAsync();
 
             // Assert
-            Assert.IsInstanceOf<IEnumerable<Authority>>(jsonResult.Value);
+            Assert.That(jsonResult.Value, Is.InstanceOf<IEnumerable<Authority>>());
             var authorities = ((IEnumerable<Authority>)jsonResult.Value).ToArray();
-            Assert.AreEqual(authorities.Length, 2);
-            Assert.AreEqual(authorities[0].Name, "authority1");
-            Assert.AreEqual(authorities[0].Id, 1);
-            Assert.AreEqual(authorities[1].Name, "authority2");
-            Assert.AreEqual(authorities[1].Id, 2);
+            Assert.That(authorities.Length, Is.EqualTo(2));
+            Assert.That(authorities[0].Name, Is.EqualTo("authority1"));
+            Assert.That(authorities[0].Id, Is.EqualTo(1));
+            Assert.That(authorities[1].Name, Is.EqualTo("authority2"));
+            Assert.That(authorities[1].Id, Is.EqualTo(2));
         }
     }
 }
