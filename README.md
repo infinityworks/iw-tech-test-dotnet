@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-- .NET SDK 9.0
+- .NET SDK 8.0
 - Access to the internet
 - Suitable development environment
 
