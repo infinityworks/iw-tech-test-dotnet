@@ -1,4 +1,4 @@
-# NGE - Full Stack Tech Test
+# Accenture Next Gen Engineering - Full Stack Tech Test: .NET
 
 ![Preview of Frontend](preview.png)
 
