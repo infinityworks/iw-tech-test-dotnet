@@ -1,9 +1,8 @@
-﻿using NGE.TechTest.Model;
+﻿namespace NGE.TechTest.Services;
 
-namespace NGE.TechTest.Services
+using NGE.TechTest.Model;
+
+public interface IFsaClient
 {
-    public interface IFsaClient
-    {
-        Task<FsaAuthorityList> GetAuthorities();
-    }
+    Task<FsaAuthorityList> GetAuthorities();
 }

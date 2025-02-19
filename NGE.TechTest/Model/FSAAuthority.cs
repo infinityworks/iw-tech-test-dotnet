@@ -1,14 +1,13 @@
-namespace NGE.TechTest.Model
+namespace NGE.TechTest.Model;
+
+public class FsaAuthority
 {
-    public class FsaAuthority
+    public int LocalAuthorityId { get; set; }
+
+    public required string Name { get; set; }
+
+    public override string ToString()
     {
-        public int LocalAuthorityId { get; set; }
-
-        public string Name { get; set; }
-
-        public override string ToString()
-        {
-            return $"FSAAuthority[id={LocalAuthorityId}, name='{Name}']";
-        }
+        return $"FSAAuthority[id={LocalAuthorityId}, name='{Name}']";
     }
 }

@@ -1,16 +1,15 @@
+namespace NGE.TechTest.Model;
+
 using System.Text.Json.Serialization;
 
-namespace NGE.TechTest.Model
+public class FsaAuthorityList
 {
-    public class FsaAuthorityList
+
+    [JsonPropertyName("authorities")]
+    public required List<FsaAuthority> Authorities { get; set; }
+
+    public override string ToString()
     {
-
-        [JsonPropertyName("authorities")]
-        public List<FsaAuthority> Authorities { get; set; }
-
-        public override string ToString()
-        {
-            return $"FSAAuthorityList[{nameof(Authorities)}={Authorities}]";
-        }
+        return $"FSAAuthorityList[{nameof(Authorities)}={Authorities}]";
     }
 }
