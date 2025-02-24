@@ -1,8 +1,8 @@
 ﻿{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:42502",
       "sslPort": 44365
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "InfinityWorks.TechTest": {
+    "NGE.TechTest": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "/",
